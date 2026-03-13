@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arwaix - Solutions Innovantes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Arwaix">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue chez <span class="highlight">Arwaix</span></h1>
+            <p>Des solutions innovantes pour-propulser votre entreprise vers le futur</p>
+            <a href="#contact" class="btn-primary">Contactez-nous</a>
+        </div>
+        <div class="hero-image">
+            <img src="ai.png" alt="Arwaix AI">
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon">🚀</div>
+                <h3>Développement Web</h3>
+                <p>Création de sites web modernes et performants adaptés à vos besoins</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">💡</div>
+                <h3>Intelligence Artificielle</h3>
+                <p>Solutions IA avancées pour optimiser vos processus métier</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📱</div>
+                <h3>Applications Mobiles</h3>
+                <p>Développement d'applications mobiles intuitives et performantes</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>Design Graphique</h3>
+                <p>Création d'identités visuelles uniques et mémorables</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">☁️</div>
+                <h3>Cloud & Infraestrutura</h3>
+                <p>Solutions cloud sécurisées et évolutives pour votre entreprise</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🔒</div>
+                <h3>Cybersécurité</h3>
+                <p>Protection de vos données et systèmes contre les menaces</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="about">
+        <div class="about-content">
+            <h2>À propos d'Arwaix</h2>
+            <p>Arwaix est une entreprise innovante spécialisée dans les technologies de pointe. Nous Aidons les entreprises à transformer leurs idées en réalité numérique grâce à des solutions créatives et performantes.</p>
+            <p>Notre équipe d'experts passionnés travaille quotidiennement pour offrir des services de qualité qui répondent aux besoins spécifiques de chaque client.</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="counter" data-target="150">0</span>
+                    <span>+ Projets</span>
+                </div>
+                <div class="stat">
+                    <span class="counter" data-target="50">0</span>
+                    <span>+ Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="counter" data-target="5">0</span>
+                    <span>Années</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="logo.png" alt="Arwaix Logo">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Arwaix">
+            </div>
+            <p>&copy; 2024 Arwaix. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
